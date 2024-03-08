@@ -16,10 +16,10 @@ module.exports = {
       'singleline': 'never',
       'multiline': 'never',
     }],
-    'vue/no-v-html': ['never'],
-    'comma-dangle': ['error', 'always-multiline'],
-    'semi': ['error', 'always'],
-    'space-before-function-paren': ['error', 'always'],
-    'no-console': ['warn'],
+    'vue/no-v-html': ['0'],
+    'comma-dangle': ['0', 'always-multiline'],
+    'semi': ['0', 'always'],
+    'space-before-function-paren': ['0', 'always'],
+    'no-console': ['0'],
   }
 }

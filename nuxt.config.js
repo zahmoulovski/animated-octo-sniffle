@@ -9,40 +9,41 @@ export default {
   },
 
   // Headers of the page
-  head: {
-    title: "Streamy Movies, TV Shows",
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      {
-        hid: "description",
-        name: "description",
-        content: "Streamy Movies, TV Shows",
-      },
-      { hid: "author", name: "author", content: "Zahmoul Med Yassine" },
-      { hid: "og:locale", property: "og:locale", content: "en_GB" },
-      { hid: "og:title", property: "og:title", content: "Movies App" },
-      {
-        hid: "og:description",
-        property: "og:description",
-        content: "Streamy Movies, TV Shows",
-      },
-      { hid: "og:type", property: "og:type", content: "website" },
-      {
-        hid: "og:url",
-        property: "og:url",
-        content: "https://streamynow.netlify.app/",
-      },
-    ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href: "//fonts.googleapis.com/css?family=Roboto:300,400,500",
-      },
-    ],
-    
-  },
+head: {
+  title: "Streamy Movies, TV Shows",
+  meta: [
+    { charset: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { name: "referrer", content: "origin" },
+    {
+      hid: "description",
+      name: "description",
+      content: "Streamy Movies, TV Shows",
+    },
+    { hid: "author", name: "author", content: "Zahmoul Med Yassine" },
+    { hid: "og:locale", property: "og:locale", content: "en_GB" },
+    { hid: "og:title", property: "og:title", content: "Movies App" },
+    {
+      hid: "og:description",
+      property: "og:description",
+      content: "Streamy Movies, TV Shows",
+    },
+    { hid: "og:type", property: "og:type", content: "website" },
+    {
+      hid: "og:url",
+      property: "og:url",
+      content: "https://streamynow.netlify.app/",
+    },
+  ],
+  link: [
+    { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+    {
+      rel: "stylesheet",
+      href: "//fonts.googleapis.com/css?family=Roboto:300,400,500",
+    },
+  ],
+},
+
 
   // Global CSS
   css: ["@/assets/css/global.scss"],
