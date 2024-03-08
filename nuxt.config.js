@@ -8,10 +8,11 @@ export default {
     fallback: true,
   },
 
-  // Headers of the page
+// Headers of the page
 head: {
   title: "Streamy Movies, TV Shows",
   meta: [
+    { name:"google-adsense-account", content:"ca-pub-1233537824699304"},
     { charset: "utf-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "referrer", content: "origin" },
@@ -42,7 +43,20 @@ head: {
       href: "//fonts.googleapis.com/css?family=Roboto:300,400,500",
     },
   ],
+  script: [
+    { src: "https://www.googletagmanager.com/gtag/js?id=G-88MYXM27FZ", async: true },
+    // The inline script for gtag
+    {
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-88MYXM27FZ');
+      `
+    }
+  ],
 },
+
 
 
   // Global CSS
