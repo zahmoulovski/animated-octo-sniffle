@@ -9,10 +9,10 @@ yarn-error.log
 .nuxt
 
 # Nuxt generate
-dist
+
 
 # Environment files
-.env
+
 
 # @nuxtjs/pwa
 sw.*
