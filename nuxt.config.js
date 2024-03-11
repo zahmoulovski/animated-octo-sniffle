@@ -53,9 +53,16 @@ head: {
         gtag('js', new Date());
         gtag('config', 'G-88MYXM27FZ');
       `
+    },
+    // Adding AdSense script
+    {
+      src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1233537824699304",
+      async: true,
+      crossorigin: "anonymous"
     }
   ],
 },
+
 
 
 
@@ -90,8 +97,8 @@ head: {
   pwa: {
     manifest: {
       lang: "en",
-      name: "Movies",
-      short_name: "Movies",
+      name: "Streamy",
+      short_name: "Streamy",
       description: "Streamy Movies, TV Shows",
       theme_color: "#2196f3",
       background_color: "#000000",

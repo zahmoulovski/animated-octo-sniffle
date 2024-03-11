@@ -10,7 +10,7 @@
         <div style="display: flex;justify-content: space-around;flex-direction: column;align-items: center; margin: 20px 0;">
         <h2 style="font-size: 2.5rem;text-align:center">Watching</h2><br>
           <iframe :src="getEmbedUrl()" title="Video Player" frameborder="0" border="0" cellspacing="0"
-          style="border-style: none;width: 95%;aspect-ratio: 16/5;" allowfullscreen referrerpolicy="origin"></iframe>
+          style="border-style: none;width: 95%;aspect-ratio: 4/2;" allowfullscreen referrerpolicy="origin"></iframe>
       </div>
     </template>
 
